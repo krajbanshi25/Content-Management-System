@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#EEE;
+	padding:0px;
+	font-family: "Elegant Lux Mager";
+	margin:0px;
+	}
+.container{
+	width:1000px;
+	box-shadow: 0px 1px 10px -2px gray;
+	height:auto;
+	margin:auto;
+	background:#FFF;
+	}
+.header{
+	position:relative;
+	width:1000px;
+	height:65px;
+	color:#ff5b54;
+	font-size:30px;
+	background-color:#e1e3e4;
+}
+.name_of_website{
+	position:relative;
+	top:15px;
+	text-align:center;
+	}
+#form{
+	float:right;
+	margin-top:7px;
+	padding-right:5px;
+	}
+.navbar{
+	height:40px;
+	width:1000px;
+	background-color:#007fff;
+}
+.textBox{
+	width:230px;
+	height:25px;
+	border:0px;
+	padding-left:10px;
+	font-size:16px;
+	border-radius:1px;
+	font-family: "Elegant Lux Mager";;
+}
+.option{
+	background:#007fff;
+	padding-top:7px;
+	min-width:110px;
+	margin-right:5px;
+	text-align:center;
+	height:30px;
+	border-bottom:3px solid #007fff;
+}
+.option:hover{
+	border-bottom:3px solid #00bfff;
+}
+.navbar li{
+	list-style-type:none;
+	display:inline-block;
+	}
+.navbar li a{
+	font-size:18px;
+	color:#fff;
+			text-decoration:none;
+		curser:pointer;
+		}
+
+.post_bar{
+	height:auto;
+	width:730px;
+	float:left;
+	padding:10px;
+	background-color:#FFF;
+	font-family: "Elegant Lux Mager";
+}
+.post_bar img{
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	float:left;
+	}
+.post_bar p{
+	text-align:justify;
+	margin:10px;
+	}
+.post_bar h2{
+	padding-bottom:10px;
+	padding-top:10px;
+	}
+#ltitle{
+	text-decoration:none;
+	font-size:25px;
+	color:rgba(0,0,0,1);
+	font-weight:bold;
+	}
+#rmlink{
+	margin-top:10px;
+	float:right;
+	color:#007fff;
+	text-decoration:none;
+}
+#rmlink{
+	text-decoration:underline;
+}
+.sidebar{
+	height:auto;
+    float:right;
+	width:249px;
+	background-color:#e1e3e4;
+}
+.recent_posts{text-decoration:none; text-align:center;}
+.recent_posts a{text-decoration:none; font-size:14px; color:rgba(0,0,0,1);}
+.recent_posts a:hover{ font-size:17px;}
+
+.stitle{
+	text-align:center;
+	color:gray;
+	padding:5px;
+	font-size:22px;
+}
+.social{
+	margin:4px;
+	padding:5px;
+	text-align:center;
+	}
+.images_followus{
+	height:50px;
+	}
+.footer{
+	height:50px;
+	width:1000px;
+	background-color:#007FFF;
+	clear:both;
+}

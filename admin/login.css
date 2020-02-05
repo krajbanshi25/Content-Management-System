@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	}
+img {
+	z-index:-100;
+	position:fixed;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+.loginguidemsg{
+	color:#fff;
+	font-size:36px;
+	font-family:"Elegant Lux Mager";
+	}
+.description{
+	text-align:justify;
+	font-size:19px;
+	color:#222;
+	font-family:"Elegant Lux Mager";
+}
+.login_div{
+	position:relative;
+}
+.formlogin{
+	padding:10px;
+	border-radius:0 10px 0 10px;
+	position:relative;
+	top:-335px;
+	left:990px;
+	background-color:#374953;
+	height:auto;
+	width:280px;
+
+}
+.adminname{
+	border-radius:0 10px 0 10px;
+	text-indent:7px;
+	width:275px;
+	height:25px;
+	color:#fff;
+	background-color:#4e6875;
+	outline:none;
+	border:1px solid #4e6875;
+	}
+	
+.adminpassword{
+	text-indent:7px;
+	border-radius:0 10px 0 10px;
+	margin-top:5px;
+	height:25px;
+	color:#fff;
+	width:275px;
+	background-color:#4e6875;
+	outline:none;
+	border:1px solid #4e6875;
+	}
+.loginbutton{
+	margin-top:5px;
+	background-color:#4e6875;
+	width:130px;
+	height:28px;
+	color:#fff;
+	border-radius:5px;
+	border:2px solid #f36557;
+	border-right:10px solid #f36557;
+	}
